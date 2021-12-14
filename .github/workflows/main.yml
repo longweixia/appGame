@@ -1,9 +1,9 @@
 name: 'actions'
 
-on:
-  push:
-    tags:
-      - '*'
+on:[push]
+  # push:
+  #   tags:
+  #     - '*'
   # schedule:
     # 北京时间 8点半，每月15执行
     # - cron: '30 0 15 * *'
