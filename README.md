@@ -8,7 +8,7 @@ Git 仓库推送一个 tag 到 Github 仓库， Actions 会自动打包构建，
 
 Cordova 环境搭建依赖 java jdk 1.8 和 Node.js，目前在环境配置已经在 `/.github/workflows/main.yml` 配置完成。
 
-How to dev
+How to dev -------------
 ```
 npm install
 // 安装的时候出现 npm ERR! Line breaks can't be quoted on Windows 不影响使用，忽略错误，继续后续操作就行
